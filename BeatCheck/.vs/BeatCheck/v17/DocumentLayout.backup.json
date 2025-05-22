@@ -1,0 +1,406 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{973FDE1E-950F-46C4-B061-6B470FA676AF}|Infrastructure\\Infrastructure.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\infrastructure\\repository\\healthcheckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973FDE1E-950F-46C4-B061-6B470FA676AF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\healthcheckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\application\\healthcheck\\interfaces\\ihealthcheckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|solutionrelative:application\\healthcheck\\interfaces\\ihealthcheckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\application\\healthcheck\\interfaces\\ihealthcheckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|solutionrelative:application\\healthcheck\\interfaces\\ihealthcheckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\application\\healthcheck\\healthcheckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|solutionrelative:application\\healthcheck\\healthcheckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\application\\healthcheck\\dtos\\createhealthcheckdefinitiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|solutionrelative:application\\healthcheck\\dtos\\createhealthcheckdefinitiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\application\\healthcheck\\dtos\\createhealthchecksuitedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|solutionrelative:application\\healthcheck\\dtos\\createhealthchecksuitedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\application\\healthcheck\\dtos\\healthcheckdefinitiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|solutionrelative:application\\healthcheck\\dtos\\healthcheckdefinitiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\application\\healthcheck\\dtos\\healthchecksuitedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|solutionrelative:application\\healthcheck\\dtos\\healthchecksuitedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973FDE1E-950F-46C4-B061-6B470FA676AF}|Infrastructure\\Infrastructure.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\infrastructure\\entities\\healthcheckdefinitionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973FDE1E-950F-46C4-B061-6B470FA676AF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\entities\\healthcheckdefinitionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA239DD-BFF8-482F-B709-F7DCA550B72A}|API\\API.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\api\\controllers\\healthcheckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA239DD-BFF8-482F-B709-F7DCA550B72A}|API\\API.csproj|solutionrelative:api\\controllers\\healthcheckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA239DD-BFF8-482F-B709-F7DCA550B72A}|API\\API.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA239DD-BFF8-482F-B709-F7DCA550B72A}|API\\API.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D336C24-8969-4EFC-8AD2-0316FB23E65B}|Domain\\Domain.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\domain\\healtcheckaggregate\\healthchecksuite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D336C24-8969-4EFC-8AD2-0316FB23E65B}|Domain\\Domain.csproj|solutionrelative:domain\\healtcheckaggregate\\healthchecksuite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\application\\healthcheck\\apihealthchecksuite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|solutionrelative:application\\healthcheck\\apihealthchecksuite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D336C24-8969-4EFC-8AD2-0316FB23E65B}|Domain\\Domain.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\domain\\healtcheckaggregate\\healthcheckdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D336C24-8969-4EFC-8AD2-0316FB23E65B}|Domain\\Domain.csproj|solutionrelative:domain\\healtcheckaggregate\\healthcheckdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\application\\healthcheck\\healthcheckdefinitionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|solutionrelative:application\\healthcheck\\healthcheckdefinitionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\application\\healthcheck\\endpoint\\endpointhealthcheckdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|solutionrelative:application\\healthcheck\\endpoint\\endpointhealthcheckdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\application\\healthcheck\\endpoint\\endpointcheckdefinitionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69B001-DA6B-46C0-B385-30700695070A}|Application\\Application.csproj|solutionrelative:application\\healthcheck\\endpoint\\endpointcheckdefinitionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D336C24-8969-4EFC-8AD2-0316FB23E65B}|Domain\\Domain.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\domain\\healtcheckaggregate\\icheckdefinitionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D336C24-8969-4EFC-8AD2-0316FB23E65B}|Domain\\Domain.csproj|solutionrelative:domain\\healtcheckaggregate\\icheckdefinitionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973FDE1E-950F-46C4-B061-6B470FA676AF}|Infrastructure\\Infrastructure.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973FDE1E-950F-46C4-B061-6B470FA676AF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973FDE1E-950F-46C4-B061-6B470FA676AF}|Infrastructure\\Infrastructure.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\infrastructure\\entities\\healthchecksuiteentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973FDE1E-950F-46C4-B061-6B470FA676AF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\entities\\healthchecksuiteentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA239DD-BFF8-482F-B709-F7DCA550B72A}|API\\API.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA239DD-BFF8-482F-B709-F7DCA550B72A}|API\\API.csproj|solutionrelative:api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA239DD-BFF8-482F-B709-F7DCA550B72A}|API\\API.csproj|c:\\users\\kurzo\\documents\\projects\\netcore\\beatcheck\\beatcheck\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA239DD-BFF8-482F-B709-F7DCA550B72A}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IHealthCheckRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\interfaces\\IHealthCheckRepository.cs",
+              "RelativeDocumentMoniker": "Application\\HealthCheck\\interfaces\\IHealthCheckRepository.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\interfaces\\IHealthCheckRepository.cs",
+              "RelativeToolTip": "Application\\HealthCheck\\interfaces\\IHealthCheckRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:24:27.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HealthCheckRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Infrastructure\\repository\\HealthCheckRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\repository\\HealthCheckRepository.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Infrastructure\\repository\\HealthCheckRepository.cs",
+              "RelativeToolTip": "Infrastructure\\repository\\HealthCheckRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:23:00.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateHealthCheckDefinitionDto.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\DTOs\\CreateHealthCheckDefinitionDto.cs",
+              "RelativeDocumentMoniker": "Application\\HealthCheck\\DTOs\\CreateHealthCheckDefinitionDto.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\DTOs\\CreateHealthCheckDefinitionDto.cs",
+              "RelativeToolTip": "Application\\HealthCheck\\DTOs\\CreateHealthCheckDefinitionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:08:35.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HealthCheckDefinitionDto.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\DTOs\\HealthCheckDefinitionDto.cs",
+              "RelativeDocumentMoniker": "Application\\HealthCheck\\DTOs\\HealthCheckDefinitionDto.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\DTOs\\HealthCheckDefinitionDto.cs",
+              "RelativeToolTip": "Application\\HealthCheck\\DTOs\\HealthCheckDefinitionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:07:26.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateHealthCheckSuiteDto.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\DTOs\\CreateHealthCheckSuiteDto.cs",
+              "RelativeDocumentMoniker": "Application\\HealthCheck\\DTOs\\CreateHealthCheckSuiteDto.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\DTOs\\CreateHealthCheckSuiteDto.cs",
+              "RelativeToolTip": "Application\\HealthCheck\\DTOs\\CreateHealthCheckSuiteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:06:42.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IHealthCheckService.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\interfaces\\IHealthCheckService.cs",
+              "RelativeDocumentMoniker": "Application\\HealthCheck\\interfaces\\IHealthCheckService.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\interfaces\\IHealthCheckService.cs",
+              "RelativeToolTip": "Application\\HealthCheck\\interfaces\\IHealthCheckService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:58:14.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HealthCheckSuiteDto.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\DTOs\\HealthCheckSuiteDto.cs",
+              "RelativeDocumentMoniker": "Application\\HealthCheck\\DTOs\\HealthCheckSuiteDto.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\DTOs\\HealthCheckSuiteDto.cs",
+              "RelativeToolTip": "Application\\HealthCheck\\DTOs\\HealthCheckSuiteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:04:43.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HealthCheckService.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\HealthCheckService.cs",
+              "RelativeDocumentMoniker": "Application\\HealthCheck\\HealthCheckService.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\HealthCheckService.cs",
+              "RelativeToolTip": "Application\\HealthCheck\\HealthCheckService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:57:53.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HealthCheckDefinitionEntity.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Infrastructure\\entities\\HealthCheckDefinitionEntity.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\entities\\HealthCheckDefinitionEntity.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Infrastructure\\entities\\HealthCheckDefinitionEntity.cs",
+              "RelativeToolTip": "Infrastructure\\entities\\HealthCheckDefinitionEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:31:11.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:53:39.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HealthCheckController.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\API\\Controllers\\HealthCheckController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\HealthCheckController.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\API\\Controllers\\HealthCheckController.cs",
+              "RelativeToolTip": "API\\Controllers\\HealthCheckController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:54:02.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApiHealthCheckSuite.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\ApiHealthCheckSuite.cs",
+              "RelativeDocumentMoniker": "Application\\HealthCheck\\ApiHealthCheckSuite.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\ApiHealthCheckSuite.cs",
+              "RelativeToolTip": "Application\\HealthCheck\\ApiHealthCheckSuite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:52:14.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HealthCheckDefinitionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\HealthCheckDefinitionFactory.cs",
+              "RelativeDocumentMoniker": "Application\\HealthCheck\\HealthCheckDefinitionFactory.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\HealthCheckDefinitionFactory.cs",
+              "RelativeToolTip": "Application\\HealthCheck\\HealthCheckDefinitionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:51:01.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EndPointCheckDefinitionValidator.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\EndPoint\\EndPointCheckDefinitionValidator.cs",
+              "RelativeDocumentMoniker": "Application\\HealthCheck\\EndPoint\\EndPointCheckDefinitionValidator.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\EndPoint\\EndPointCheckDefinitionValidator.cs",
+              "RelativeToolTip": "Application\\HealthCheck\\EndPoint\\EndPointCheckDefinitionValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:50:48.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EndPointHealthCheckDefinition.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\EndPoint\\EndPointHealthCheckDefinition.cs",
+              "RelativeDocumentMoniker": "Application\\HealthCheck\\EndPoint\\EndPointHealthCheckDefinition.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Application\\HealthCheck\\EndPoint\\EndPointHealthCheckDefinition.cs",
+              "RelativeToolTip": "Application\\HealthCheck\\EndPoint\\EndPointHealthCheckDefinition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:50:03.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HealthCheckDefinition.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Domain\\HealtCheckAggregate\\HealthCheckDefinition.cs",
+              "RelativeDocumentMoniker": "Domain\\HealtCheckAggregate\\HealthCheckDefinition.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Domain\\HealtCheckAggregate\\HealthCheckDefinition.cs",
+              "RelativeToolTip": "Domain\\HealtCheckAggregate\\HealthCheckDefinition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:41:38.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HealthCheckSuite.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Domain\\HealtCheckAggregate\\HealthCheckSuite.cs",
+              "RelativeDocumentMoniker": "Domain\\HealtCheckAggregate\\HealthCheckSuite.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Domain\\HealtCheckAggregate\\HealthCheckSuite.cs",
+              "RelativeToolTip": "Domain\\HealtCheckAggregate\\HealthCheckSuite.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:37:57.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:38:01.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICheckDefinitionValidator.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Domain\\HealtCheckAggregate\\ICheckDefinitionValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\HealtCheckAggregate\\ICheckDefinitionValidator.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Domain\\HealtCheckAggregate\\ICheckDefinitionValidator.cs",
+              "RelativeToolTip": "Domain\\HealtCheckAggregate\\ICheckDefinitionValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:12:11.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HealthCheckSuiteEntity.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Infrastructure\\entities\\HealthCheckSuiteEntity.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\entities\\HealthCheckSuiteEntity.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\Infrastructure\\entities\\HealthCheckSuiteEntity.cs",
+              "RelativeToolTip": "Infrastructure\\entities\\HealthCheckSuiteEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:30:16.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "API\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\API\\WeatherForecast.cs",
+              "RelativeToolTip": "API\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:24:11.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\kurzo\\Documents\\Projects\\NetCore\\BeatCheck\\BeatCheck\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:24:07.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
