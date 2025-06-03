@@ -1,5 +1,5 @@
 ﻿using Application.HealthCheck.EndPoint;
-using Domain.HealtCheckAggregate;
+using Core.HealtCheckAggregate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,15 +8,11 @@ using System.Threading.Tasks;
 
 namespace Application.HealthCheck
 {
-    internal class ApiHealthCheckSuite : HealthCheckSuite
+    public class ApiHealthCheckSuite : HealthCheckSuite
     {
         public ApiHealthCheckSuite(string targetName) : base(targetName, "API")
         {
+            _validators.Add("EndPoint", new EndPointCheckTypeValidator());
         }
-
-        private static readonly Dictionary<string, ICheckDefinitionValidator> _validators = new()
-        {
-            {"EndPoint", new EndPointCheckDefinitionValidator()}
-        };
     }
 }

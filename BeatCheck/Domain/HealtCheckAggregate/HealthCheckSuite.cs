@@ -4,34 +4,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.HealtCheckAggregate
+namespace Core.HealtCheckAggregate
 {
     public abstract class HealthCheckSuite
     {
         // Changed constructor from private to protected to allow access in derived classes
         protected HealthCheckSuite(string targetName, string targetType)
         {
-            Id = Guid.NewGuid();
             TargetName = targetName ?? throw new ArgumentNullException(nameof(targetName));
             TargetType = targetType ?? throw new ArgumentNullException(nameof(targetType));
         }
 
-        public Guid Id { get; private set; }
+        public int Id { get; set; }
         public string TargetName { get; private set; }
         public string TargetType { get; private set; }
 
-        private static readonly Dictionary<string, ICheckDefinitionValidator> _validators = new()
+        protected readonly Dictionary<string, ICheckTypeValidator> _validators = new()
         {
             // add check definition here
         };
-        private readonly List<HealthCheckDefinition> _checks = new();
-        public IReadOnlyCollection<HealthCheckDefinition> Checks => _checks.AsReadOnly();
+        private readonly List<CheckType> _checks = new();
+        public IReadOnlyCollection<CheckType> Checks => _checks.AsReadOnly();
 
-        public void AddCheck(HealthCheckDefinition check)
+        public void AddCheck(CheckType check)
         {
             if (check == null) throw new ArgumentNullException(nameof(check));
             
-            if (_validators.TryGetValue(check.CheckType, out var validator))
+            if (_validators.TryGetValue(check.Type, out var validator))
             {
                 if (validator.IsValid(this, check, out var errorMessage))
                 {
@@ -44,7 +43,7 @@ namespace Domain.HealtCheckAggregate
             }
             else
             {
-                throw new ArgumentException($"Unknown check type: {check.CheckType}");
+                throw new ArgumentException($"Unknown check type: {check.Type}");
             }
         }
     }

@@ -1,4 +1,4 @@
-﻿using Domain.HealtCheckAggregate;
+﻿using Core.HealtCheckAggregate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Application.HealthCheck.EndPoint
 {
-    public class EndPointCheckDefinitionValidator : ICheckDefinitionValidator
+    public class EndPointCheckTypeValidator : ICheckTypeValidator
     {
-        public bool IsValid(HealthCheckSuite suite, HealthCheckDefinition definition, out string? errorMessage)
+        public bool IsValid(HealthCheckSuite suite, CheckType definition, out string? errorMessage)
         {
             errorMessage = null;
-            if (definition is not EndPointHealthCheckDefinition apiCheck)
+            if (definition is not EndPointCheckType apiCheck)
             {
                 errorMessage = "Invalid check type for EndPointCheckDefinitionValidator.";
                 return false;
@@ -22,7 +22,7 @@ namespace Application.HealthCheck.EndPoint
                 errorMessage = "URL cannot be null or empty.";
                 return false;
             }
-            if(suite.Checks.Any(c => c is EndPointHealthCheckDefinition existingCheck && existingCheck.Url == apiCheck.Url))
+            if(suite.Checks.Any(c => c is EndPointCheckType existingCheck && existingCheck.Url == apiCheck.Url))
             {
                 errorMessage = $"Duplicate URL found: {apiCheck.Url}";
                 return false;

@@ -1,5 +1,4 @@
-﻿using Application.HealthCheck.DTOs;
-using Domain.HealtCheckAggregate;
+﻿using Core.HealtCheckAggregate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,11 +9,11 @@ namespace Application.HealthCheck.interfaces
 {
     public interface IHealthCheckRepository
     {
-        Task<Guid> CreateSuiteAsync(HealthCheckSuite entity);
-        Task<HealthCheckSuite?> GetSuiteAsync(Guid id);
+        Task<int> CreateSuiteAsync(HealthCheckSuite entity);
+        Task<HealthCheckSuite?> GetSuiteAsync(int id);
         Task<IEnumerable<HealthCheckSuite>> GetAllSuitesAsync();
-        Task<Guid> CreateDefinitionAsync(HealthCheckDefinition entity);
-        Task<HealthCheckDefinition?> GetDefinitionAsync(Guid id);
-        Task<Guid> UpdateSuiteAsync(HealthCheckSuite entity);
+        Task<int> CreateDefinitionAsync(CheckType entity);
+        Task<CheckType?> GetDefinitionAsync(int id);
+        Task<int> UpdateSuiteAsync(HealthCheckSuite entity);
     }
 }

@@ -3,4 +3,17 @@
 GET {{API_HostAddress}}/weatherforecast/
 Accept: application/json
 
+
 ###
+GET {{API_HostAddress}}/api/healthcheck/
+Accept: application/json
+
+###
+POST {{API_HostAddress}}/api/healthcheck/suite
+Content-Type: application/json
+Accept: application/json
+
+{
+  "targetName": "MonService",
+  "targetType": "asd"
+}

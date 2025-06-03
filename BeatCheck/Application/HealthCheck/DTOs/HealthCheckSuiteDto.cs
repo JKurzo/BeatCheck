@@ -8,9 +8,9 @@ namespace Application.HealthCheck.DTOs
 {
     public class HealthCheckSuiteDto
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
         public string TargetName { get; set; } = string.Empty;
         public string TargetType { get; set; } = string.Empty;
-        public List<HealthCheckDefinitionDto> HealthCheckDefinitions { get; set; } = new List<HealthCheckDefinitionDto>();
+        public List<CheckTypeDto> Checks { get; set; } = new List<CheckTypeDto>();
     }
 }

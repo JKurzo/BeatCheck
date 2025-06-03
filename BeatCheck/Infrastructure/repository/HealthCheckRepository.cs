@@ -1,7 +1,7 @@
-﻿using Application.HealthCheck.interfaces;
+﻿using Application.HealthCheck.DTOs;
+using Application.HealthCheck.interfaces;
 using AutoMapper;
-using Domain.HealtCheckAggregate;
-using Infrastructure.entities;
+using Core.HealtCheckAggregate;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -13,66 +13,60 @@ namespace Infrastructure.repository
 {
     internal class HealthCheckRepository : IHealthCheckRepository
     {
-        HealthCheckRepository(AppDbContext appDbContext)
+        public HealthCheckRepository(ApplicationDbContext appDbContext)
         {
             _appDbContext = appDbContext ?? throw new ArgumentNullException(nameof(appDbContext));
             _mapper = new Mapper(new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<HealthCheckSuiteEntity, HealthCheckSuite>();
-                cfg.CreateMap<HealthCheckDefinitionEntity, HealthCheckDefinition>();
+                cfg.CreateMap<HealthCheckSuiteDto, HealthCheckSuite>();
+                cfg.CreateMap<CheckType, CheckTypeDto>();
             }));
         }
-        private readonly AppDbContext _appDbContext;
+        private readonly ApplicationDbContext _appDbContext;
         private readonly Mapper _mapper;
 
-        public async Task<Guid> CreateSuiteAsync(HealthCheckSuite entity)
+        public async Task<int> CreateSuiteAsync(HealthCheckSuite entity)
         {
-            HealthCheckSuiteEntity healthCheckSuiteEntity = _mapper.Map<HealthCheckSuiteEntity>(entity);
-            healthCheckSuiteEntity.Id = Guid.NewGuid();
-            await _appDbContext.HealthCheckSuites.AddAsync(healthCheckSuiteEntity);
+            await _appDbContext.HealthCheckSuites.AddAsync(entity);
             await _appDbContext.SaveChangesAsync();
-            return healthCheckSuiteEntity.Id;
+            return entity.Id;
         }
 
-        public async Task<Guid> UpdateSuiteAsync(HealthCheckSuite entity)
+        public async Task<int> UpdateSuiteAsync(HealthCheckSuite entity)
         {
-            HealthCheckSuiteEntity healthCheckSuiteEntity = _mapper.Map<HealthCheckSuiteEntity>(entity);
-            _appDbContext.HealthCheckSuites.Update(healthCheckSuiteEntity);
+            _appDbContext.HealthCheckSuites.Update(entity);
             await _appDbContext.SaveChangesAsync();
-            return healthCheckSuiteEntity.Id;
+            return entity.Id;
         }
 
-        public async Task<HealthCheckSuite?> GetSuiteAsync(Guid id)
+        public async Task<HealthCheckSuite?> GetSuiteAsync(int id)
         {
             return await _appDbContext.HealthCheckSuites
                                         .Include(h => h.Checks)
                                         .Where(h => h.Id == id)
-                                        .Select(h => _mapper.Map<HealthCheckSuite>(h))
                                         .FirstOrDefaultAsync();
         }
 
         public async Task<IEnumerable<HealthCheckSuite>> GetAllSuitesAsync()
         {
-            return await _appDbContext.HealthCheckSuites
+            var suites = await _appDbContext.HealthCheckSuites
                 .Include(h => h.Checks)
-                .Select(h => _mapper.Map<HealthCheckSuite>(h))
                 .ToListAsync();
+
+            return suites;
         }
 
-        public async Task<Guid> CreateDefinitionAsync(HealthCheckDefinition entity)
+        public async Task<int> CreateDefinitionAsync(CheckType entity)
         {
-            HealthCheckDefinitionEntity healthCheckDefinitionEntity = _mapper.Map<HealthCheckDefinitionEntity>(entity);
-            healthCheckDefinitionEntity.Id = Guid.NewGuid();
-            await _appDbContext.HealthCheckDefinitions.AddAsync(healthCheckDefinitionEntity);
+            await _appDbContext.HealthCheckDefinitions.AddAsync(entity);
             await _appDbContext.SaveChangesAsync();
-            return healthCheckDefinitionEntity.Id;
+            return entity.Id;
         }
 
-        public async Task<HealthCheckDefinition?> GetDefinitionAsync(Guid id)
+        public async Task<CheckType?> GetDefinitionAsync(int id)
         {
             return await _appDbContext.HealthCheckDefinitions
                 .Where(h => h.Id == id)
-                .Select(h => _mapper.Map<HealthCheckDefinition>(h))
                 .FirstOrDefaultAsync();
         }
     }

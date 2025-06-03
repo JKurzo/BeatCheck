@@ -1,4 +1,4 @@
-﻿using Domain.HealtCheckAggregate;
+﻿using Core.HealtCheckAggregate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Application.HealthCheck.EndPoint
 {
-    internal class EndPointHealthCheckDefinition : HealthCheckDefinition
+    public class EndPointCheckType : CheckType
     {
         public string Url { get; private set; }
-        public EndPointHealthCheckDefinition(string url, string status, string details)
-            : base("EndPoint", status, details)
+        public EndPointCheckType(string url)
+            : base("EndPoint")
         {
             Url = url ?? throw new ArgumentNullException(nameof(url));
         }
